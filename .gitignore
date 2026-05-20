@@ -1,0 +1,25 @@
+# Vivado generated files
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.log
+*.jou
+*.str
+*.pb
+*.dcp
+*.bit
+*.ltx
+
+# Backup files
+backup_*/
+*.backup.*
+
+# Build output
+output/
+
+# OS files
+.DS_Store
+Thumbs.db

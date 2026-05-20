@@ -1,0 +1,63 @@
+ADDRESS SPACES
+SPACE /VexRiscvAxi4_Wrapper_0/dbus
+  NAME=dbus
+SPACE /VexRiscvAxi4_Wrapper_0/ibus
+  NAME=ibus
+SPACE /axi_bram_ctrl_0/S_AXI
+  NAME=S_AXI
+  SEG_OF_SPACE /axi_bram_ctrl_0/S_AXI/Mem0 OFFSET= RANGE=0x00001000 USAGE=memory
+SPACE /axi_dma_0/Data_MM2S
+  NAME=Data_MM2S
+  SEG_OF_SPACE /axi_dma_0/Data_MM2S/SEG_axi_bram_ctrl_0_Mem0 OFFSET=0x00000000 RANGE=0x00010000 USAGE=memory
+  SEG_OF_SPACE /axi_dma_0/Data_MM2S/SEG_axi_dma_0_Reg OFFSET=0x41E00000 RANGE=0x00010000 USAGE=register
+  SEG_OF_SPACE /axi_dma_0/Data_MM2S/SEG_axi_uart16550_0_Reg OFFSET=0xF0010000 RANGE=0x00010000 USAGE=register
+  SEG_OF_SPACE /axi_dma_0/Data_MM2S/SEG_mig_7series_0_memaddr OFFSET=0x80000000 RANGE=0x10000000 USAGE=memory
+SPACE /axi_dma_0/Data_S2MM
+  NAME=Data_S2MM
+  SEG_OF_SPACE /axi_dma_0/Data_S2MM/SEG_axi_bram_ctrl_0_Mem0 OFFSET=0x00000000 RANGE=0x00010000 USAGE=memory
+  SEG_OF_SPACE /axi_dma_0/Data_S2MM/SEG_axi_dma_0_Reg OFFSET=0x41E00000 RANGE=0x00010000 USAGE=register
+  SEG_OF_SPACE /axi_dma_0/Data_S2MM/SEG_axi_uart16550_0_Reg OFFSET=0xF0010000 RANGE=0x00010000 USAGE=register
+  SEG_OF_SPACE /axi_dma_0/Data_S2MM/SEG_mig_7series_0_memaddr OFFSET=0x80000000 RANGE=0x10000000 USAGE=memory
+SPACE /axi_dma_0/S_AXI_LITE
+  NAME=S_AXI_LITE
+  SEG_OF_SPACE /axi_dma_0/S_AXI_LITE/Reg OFFSET= RANGE=0x00001000 USAGE=register
+SPACE /axi_dma_conv/Data_MM2S
+  NAME=Data_MM2S
+  SEG_OF_SPACE /axi_dma_conv/Data_MM2S/SEG_axi_bram_ctrl_0_Mem0 OFFSET=0x00000000 RANGE=0x00010000 USAGE=memory
+  SEG_OF_SPACE /axi_dma_conv/Data_MM2S/SEG_mig_7series_0_memaddr OFFSET=0x80000000 RANGE=0x10000000 USAGE=memory
+SPACE /axi_dma_conv/Data_S2MM
+  NAME=Data_S2MM
+  SEG_OF_SPACE /axi_dma_conv/Data_S2MM/SEG_axi_bram_ctrl_0_Mem0 OFFSET=0x00000000 RANGE=0x00010000 USAGE=memory
+  SEG_OF_SPACE /axi_dma_conv/Data_S2MM/SEG_mig_7series_0_memaddr OFFSET=0x80000000 RANGE=0x10000000 USAGE=memory
+SPACE /axi_dma_conv/S_AXI_LITE
+  NAME=S_AXI_LITE
+  SEG_OF_SPACE /axi_dma_conv/S_AXI_LITE/Reg OFFSET= RANGE=0x00001000 USAGE=register
+SPACE /axi_uart16550_0/S_AXI
+  NAME=S_AXI
+  SEG_OF_SPACE /axi_uart16550_0/S_AXI/Reg OFFSET= RANGE=0x00010000 USAGE=register
+SPACE /mig_7series_0/memmap
+  NAME=memmap
+  SEG_OF_SPACE /mig_7series_0/memmap/memaddr OFFSET= RANGE=0x40000000 USAGE=memory
+SPACE /pl_channel_convolver_0/s_axi
+  NAME=s_axi
+  SEG_OF_SPACE /pl_channel_convolver_0/s_axi/reg0 OFFSET= RANGE=0x00001000 USAGE=register
+
+ADDRESS SEGS
+SEG /axi_bram_ctrl_0/S_AXI/Mem0 OFFSET= RANGE=0x00001000 USAGE=memory
+SEG /axi_dma_0/Data_MM2S/SEG_axi_bram_ctrl_0_Mem0 OFFSET=0x00000000 RANGE=0x00010000 USAGE=memory
+SEG /axi_dma_0/Data_MM2S/SEG_axi_dma_0_Reg OFFSET=0x41E00000 RANGE=0x00010000 USAGE=register
+SEG /axi_dma_0/Data_MM2S/SEG_axi_uart16550_0_Reg OFFSET=0xF0010000 RANGE=0x00010000 USAGE=register
+SEG /axi_dma_0/Data_MM2S/SEG_mig_7series_0_memaddr OFFSET=0x80000000 RANGE=0x10000000 USAGE=memory
+SEG /axi_dma_0/Data_S2MM/SEG_axi_bram_ctrl_0_Mem0 OFFSET=0x00000000 RANGE=0x00010000 USAGE=memory
+SEG /axi_dma_0/Data_S2MM/SEG_axi_dma_0_Reg OFFSET=0x41E00000 RANGE=0x00010000 USAGE=register
+SEG /axi_dma_0/Data_S2MM/SEG_axi_uart16550_0_Reg OFFSET=0xF0010000 RANGE=0x00010000 USAGE=register
+SEG /axi_dma_0/Data_S2MM/SEG_mig_7series_0_memaddr OFFSET=0x80000000 RANGE=0x10000000 USAGE=memory
+SEG /axi_dma_0/S_AXI_LITE/Reg OFFSET= RANGE=0x00001000 USAGE=register
+SEG /axi_dma_conv/Data_MM2S/SEG_axi_bram_ctrl_0_Mem0 OFFSET=0x00000000 RANGE=0x00010000 USAGE=memory
+SEG /axi_dma_conv/Data_MM2S/SEG_mig_7series_0_memaddr OFFSET=0x80000000 RANGE=0x10000000 USAGE=memory
+SEG /axi_dma_conv/Data_S2MM/SEG_axi_bram_ctrl_0_Mem0 OFFSET=0x00000000 RANGE=0x00010000 USAGE=memory
+SEG /axi_dma_conv/Data_S2MM/SEG_mig_7series_0_memaddr OFFSET=0x80000000 RANGE=0x10000000 USAGE=memory
+SEG /axi_dma_conv/S_AXI_LITE/Reg OFFSET= RANGE=0x00001000 USAGE=register
+SEG /axi_uart16550_0/S_AXI/Reg OFFSET= RANGE=0x00010000 USAGE=register
+SEG /mig_7series_0/memmap/memaddr OFFSET= RANGE=0x40000000 USAGE=memory
+SEG /pl_channel_convolver_0/s_axi/reg0 OFFSET= RANGE=0x00001000 USAGE=register

@@ -1,0 +1,86 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed May 20 14:22:13 2026
+| Host         : LAPTOP-I55VPB75 running 64-bit major release  (build 9200)
+| Command      : report_ip_status
+------------------------------------------------------------------------------------
+
+IP Status Summary
+
+1. Project IP Status
+--------------------
+Your project uses 13 IP. Some of these IP may have undergone changes in this release of the software. Please review the recommended actions.
+
+More information on the Xilinx versioning policy is available at www.xilinx.com.
+
+Project IP Instances
++-----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| Instance Name                     | Status     | Recommendation      | Change    | IP Name            | IP      | New Version   | New        | Original Part        |
+|                                   |            |                     | Log       |                    | Version |               | License    |                      |
++-----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_VexRiscvAxi4_Wrapper_0_7 | Up-to-date | No changes required | Change    | VexRiscvAxi4FpuTim | 1.0     | 1.0 (Rev. 44) | Included   | xc7z100ffg900-2      |
+|                                   |            |                     | Log not   |                    | (Rev.   |               |            |                      |
+|                                   |            |                     | available |                    | 44)     |               |            |                      |
++-----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_axi_bram_ctrl_0_0        | Up-to-date | No changes required |  *(1)     | AXI BRAM           | 4.1     | 4.1 (Rev. 7)  | Included   | xc7z100ffg900-2      |
+|                                   |            |                     |           | Controller         | (Rev.   |               |            |                      |
+|                                   |            |                     |           |                    | 7)      |               |            |                      |
++-----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_axi_dma_0_0              | Up-to-date | No changes required |  *(2)     | AXI Direct Memory  | 7.1     | 7.1 (Rev. 28) | Included   | xc7z100ffg900-2      |
+|                                   |            |                     |           | Access             | (Rev.   |               |            |                      |
+|                                   |            |                     |           |                    | 28)     |               |            |                      |
++-----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_axi_dma_conv_0           | Up-to-date | No changes required |  *(3)     | AXI Direct Memory  | 7.1     | 7.1 (Rev. 28) | Included   | xc7z100ffg900-2      |
+|                                   |            |                     |           | Access             | (Rev.   |               |            |                      |
+|                                   |            |                     |           |                    | 28)     |               |            |                      |
++-----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_axi_interconnect_0_1     | Up-to-date | No changes required |  *(4)     | AXI Interconnect   | 2.1     | 2.1 (Rev. 28) | Included   | xc7z100ffg900-2      |
+|                                   |            |                     |           |                    | (Rev.   |               |            |                      |
+|                                   |            |                     |           |                    | 28)     |               |            |                      |
++-----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_axi_uart16550_0_0        | Up-to-date | No changes required |  *(5)     | AXI UART16550      | 2.0     | 2.0 (Rev. 29) | Included   | xc7z100ffg900-2      |
+|                                   |            |                     |           |                    | (Rev.   |               |            |                      |
+|                                   |            |                     |           |                    | 29)     |               |            |                      |
++-----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_blk_mem_gen_0_0          | Up-to-date | No changes required |  *(6)     | Block Memory       | 8.4     | 8.4 (Rev. 5)  | Included   | xc7z100ffg900-2      |
+|                                   |            |                     |           | Generator          | (Rev.   |               |            |                      |
+|                                   |            |                     |           |                    | 5)      |               |            |                      |
++-----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_cordic_0_0               | Up-to-date | No changes required |  *(7)     | CORDIC             | 6.0     | 6.0 (Rev. 18) | Included   | xc7z100ffg900-2      |
+|                                   |            |                     |           |                    | (Rev.   |               |            |                      |
+|                                   |            |                     |           |                    | 18)     |               |            |                      |
++-----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_mig_7series_0_0          | Up-to-date | No changes required |  *(8)     | Memory Interface   | 4.2     | 4.2 (Rev. 1)  | Included   | xc7z100ffg900-2      |
+|                                   |            |                     |           | Generator (MIG 7   | (Rev.   |               |            |                      |
+|                                   |            |                     |           | Series)            | 1)      |               |            |                      |
++-----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_pl_channel_convolver_0_0 | Up-to-date | No changes required | Change    | PL Channel         | 1.0     | 1.0 (Rev. 1)  | Included   | xc7z100ffg900-2      |
+|                                   |            |                     | Log not   | Convolver          | (Rev.   |               |            |                      |
+|                                   |            |                     | available |                    | 1)      |               |            |                      |
++-----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_proc_sys_reset_0_0       | Up-to-date | No changes required |  *(9)     | Processor System   | 5.0     | 5.0 (Rev. 13) | Included   | xc7z100ffg900-2      |
+|                                   |            |                     |           | Reset              | (Rev.   |               |            |                      |
+|                                   |            |                     |           |                    | 13)     |               |            |                      |
++-----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_util_resetn_inv_0_0      | Up-to-date | No changes required |  *(10)    | Utility Vector     | 2.0     | 2.0 (Rev. 2)  | Included   | xc7z100ffg900-2      |
+|                                   |            |                     |           | Logic              | (Rev.   |               |            |                      |
+|                                   |            |                     |           |                    | 2)      |               |            |                      |
++-----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+| design_1_xlconstant_0_0           | Up-to-date | No changes required |  *(11)    | Constant           | 1.1     | 1.1 (Rev. 7)  | Included   | xc7z100ffg900-2      |
+|                                   |            |                     |           |                    | (Rev.   |               |            |                      |
+|                                   |            |                     |           |                    | 7)      |               |            |                      |
++-----------------------------------+------------+---------------------+-----------+--------------------+---------+---------------+------------+----------------------+
+*(1) e:/vivado/Vivado/2022.2/data/ip/xilinx/axi_bram_ctrl_v4_1/doc/axi_bram_ctrl_v4_1_changelog.txt
+*(2) e:/vivado/Vivado/2022.2/data/ip/xilinx/axi_dma_v7_1/doc/axi_dma_v7_1_changelog.txt
+*(3) e:/vivado/Vivado/2022.2/data/ip/xilinx/axi_dma_v7_1/doc/axi_dma_v7_1_changelog.txt
+*(4) e:/vivado/Vivado/2022.2/data/ip/xilinx/axi_interconnect_v2_1/doc/axi_interconnect_v2_1_changelog.txt
+*(5) e:/vivado/Vivado/2022.2/data/ip/xilinx/axi_uart16550_v2_0/doc/axi_uart16550_v2_0_changelog.txt
+*(6) e:/vivado/Vivado/2022.2/data/ip/xilinx/blk_mem_gen_v8_4/doc/blk_mem_gen_v8_4_changelog.txt
+*(7) e:/vivado/Vivado/2022.2/data/ip/xilinx/cordic_v6_0/doc/cordic_v6_0_changelog.txt
+*(8) e:/vivado/Vivado/2022.2/data/ip/xilinx/mig_7series_v4_2/doc/mig_7series_v4_2_changelog.txt
+*(9) e:/vivado/Vivado/2022.2/data/ip/xilinx/proc_sys_reset_v5_0/doc/proc_sys_reset_v5_0_changelog.txt
+*(10) e:/vivado/Vivado/2022.2/data/ip/xilinx/util_vector_logic_v2_0/doc/util_vector_logic_v2_0_changelog.txt
+*(11) e:/vivado/Vivado/2022.2/data/ip/xilinx/xlconstant_v1_1/doc/xlconstant_v1_1_changelog.txt
+
+
